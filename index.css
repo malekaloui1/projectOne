@@ -1,0 +1,121 @@
+.p1 {
+    border: 5px outset rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+    }
+
+.p2 {
+    border: 5px outset rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+        
+    }    
+
+body {
+    background-image:url("https://i.pinimg.com/originals/85/82/f2/8582f2aa51c9f41e7cb8350a0f0efd9a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } 
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+#img1{
+    border: 10px solid rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#img1:hover{
+    scale: 1.1;
+    transition: 0.5s ease-out;
+}
+
+#img{
+    border: 10px solid rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#img:hover{
+    scale: 1.1;
+    transition: 0.5s ease-out;
+}
+
+#img5{
+    border: 10px solid rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#img5:hover{
+    scale: 1.1;
+    transition: 0.5s ease-out;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#button {
+    padding: 7px 16px;
+    background-color: rgba(0, 0, 0, 0.441);
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#button:hover {
+    color: black;
+    background-color: whitesmoke;
+    scale: 1.1;
+    transition: 0.3s ease-in;
+}
+  
+#m1{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+
+}   
+
+#m2{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+}
+
+h3 {
+    color: brown;
+    text-align: center;
+    font-size: x-large;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-size: x-large;
+}
+    
